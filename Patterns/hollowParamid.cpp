@@ -11,7 +11,13 @@ void fullParamid(int n){
 
         // stars
         for(int col = 0; col< row + 1; col++){
-            cout << "* ";
+            if(row == 0 || row == n - 1 || col == 0 || col == row ){
+                cout << "* ";
+            }else if(row == n - 1){
+                cout << "* ";
+            }else {
+                cout << "  ";
+            }
         }
         cout << endl;
     }
