@@ -19,5 +19,8 @@ int main(){
     cout << d << " size of double : " << sizeof(d) <<endl;
 
 
+    short value = 32769;
+    cout << "value is " << value << endl;
+
     return 0;
 }
