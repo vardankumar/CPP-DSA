@@ -26,7 +26,6 @@ void fullFancy12(int n){
         }
         cout << endl;
     }
-
 }
 
 int main(){
