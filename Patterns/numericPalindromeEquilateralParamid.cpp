@@ -2,6 +2,11 @@
 using namespace std;
 
 
+//     1
+//    121
+//   12321
+//  1234321
+// 123454321
 
 void numericPalindromeEquilateralParamid(int n){
     int k = n;
